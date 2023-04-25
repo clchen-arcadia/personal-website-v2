@@ -1,5 +1,5 @@
-import "./PhotoCarousel.css";
-import { IPhoto } from "./types";
+import { IPhoto } from "../types";
+require("./PhotoCard.css");
 
 function PhotoCarousel({src, alt}: IPhoto) {
     return (
