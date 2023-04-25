@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IPhotoCarousel } from "../types";
 import "./PhotoCarousel.css";
 import PhotoCard from "./PhotoCard";
+// require("./PhotoCarousel.css");
 
 
 
@@ -23,19 +24,23 @@ function PhotoCarousel({ photos, title }: IPhotoCarousel) {
     }
 
     return (
-        <div>
+        <div className="d-flex justify-content-center">
+        <div className="row d-flex align-items-center" style={{width: "650px"}}>
             <i
-                className={`bi bi-arrow-left-circle`}
+                className={`bi bi-arrow-left-circle col-sm`}
                 onClick={goBack}
             />
-            <PhotoCard
-                src={currCard.src}
-                alt={currCard.alt}
-            />
+            <div className={"col-sm"}>
+                <PhotoCard
+                    src={currCard.src}
+                    alt={currCard.alt}
+                />
+            </div>
             <i
-                className={`bi bi-arrow-right-circle`}
+                className={`bi bi-arrow-right-circle col-sm`}
                 onClick={goForward}
             />
+        </div>
         </div>
     );
 }

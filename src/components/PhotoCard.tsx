@@ -3,7 +3,7 @@ require("./PhotoCard.css");
 
 function PhotoCarousel({src, alt}: IPhoto) {
     return (
-    <div className="Card">
+    <div className="Card shadow border">
         <img className="Card-image" src={src} alt={alt} />
     </div>
     )
