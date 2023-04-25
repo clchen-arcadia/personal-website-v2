@@ -1,10 +1,10 @@
 
 export interface IPhoto {
-  src: string, // photo
+  src: string,
   alt: string
 }
 
 export interface IPhotoCarousel {
-  photos: Photo[],
+  photos: IPhoto[],
   title: string
 }
