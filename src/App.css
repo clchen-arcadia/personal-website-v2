@@ -30,16 +30,16 @@ section#intro>h1 {
 
 }
 
-section#intro>h2 {
+section#intro>h2#h2-1 {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section#intro>h3 {
+section#intro>h2#h2-2 {
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -55,6 +55,17 @@ section#about-me > h2 {
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+section#about-me > div#about-blurb {
+  position:absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  height: 60vh;
+  width: 40vw;
+
+  white-space: pre-wrap;
 
 }
 

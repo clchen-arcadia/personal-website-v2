@@ -4,6 +4,7 @@ import photos from './photos';
 import InfoBox from './components/InfoBox';
 import backgroundPhoto from "./images/background-high.jpg";
 import portraitPhoto from "./images/portrait.jpeg";
+import { aboutMeBlurb } from './copy';
 
 
 function App() {
@@ -18,17 +19,36 @@ function App() {
       >
         <img src={backgroundPhoto} alt="background with cherry blossoms" id="background" />
         <h1>Hello World, I'm Christopher Chen</h1>
-        <h2>Software Engineer</h2>
-        <h3>New York, NY</h3>
+        <h2 id="h2-1">Software Engineer</h2>
+        <h2 id="h2-2">New York, NY</h2>
       </section>
 
       <section
         id="about-me"
       >
         <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur esse labore ipsum earum necessitatibus, eveniet numquam soluta perspiciatis maxime, quam ab in laudantium maiores, repellat eum voluptate pariatur ad ea?
-        </p>
+
+        <div id="about-blurb">
+          <p>
+            {`Hi there! I’m Christopher Chen and I’m a full stack software engineer. I’ve recently graduated from Rithm School’s coding bootcamp and am working on networking, applying to jobs, and building out my portfolio and new projects! \n\n`}
+
+            {`Fun facts: My favorite show is BoJack Horseman. My favorite book is A Tree Grows In Brooklyn. And I love hiking, board games, and cooking!\n\n`}
+
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">
+                <a href="https://www.linkedin.com/in/christopherlichen/">LinkedIn</a>
+              </li>
+              <li className="list-group-item">
+                <a href="https://github.com/clchen-arcadia">GitHub</a>
+              </li>
+              <li className="list-group-item">
+                <a href="mailto:clchen.arcadia@gmail.com">Email</a>
+              </li>
+            </ul>
+
+          </p>
+        </div>
+
         <img src={portraitPhoto} alt="A portrait of me" id="portrait" />
       </section>
 
