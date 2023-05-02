@@ -2,8 +2,6 @@ import { useState } from "react";
 import { IPhotoCarousel } from "../types";
 import "./PhotoCarousel.css";
 import PhotoCard from "./PhotoCard";
-// require("./PhotoCarousel.css");
-
 
 
 function PhotoCarousel({ photos, title }: IPhotoCarousel) {
