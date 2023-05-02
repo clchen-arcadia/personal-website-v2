@@ -8,3 +8,8 @@ export interface IPhotoCarousel {
   photos: IPhoto[],
   title: string
 }
+
+export interface ILink {
+  text: string,
+  link: string
+}
