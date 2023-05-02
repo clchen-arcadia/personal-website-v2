@@ -24,23 +24,29 @@ function PhotoCarousel({ photos, title }: IPhotoCarousel) {
     }
 
     return (
-        <div className="d-flex justify-content-center">
-        <div className="row d-flex align-items-center" style={{width: "650px"}}>
+        <div className="d-flex justify-content-center align-items-center row"
+            id="carousel-container"
+        >
+
             <i
                 className={`bi bi-arrow-left-circle col-sm`}
                 onClick={goBack}
             />
-            <div className={"col-sm"}>
-                <PhotoCard
-                    src={currCard.src}
-                    alt={currCard.alt}
-                />
+            <div className={"col-sm d-flex justify-content-center align-items-center"}
+                id="photo-box"
+            >
+                <div >
+                    <PhotoCard
+                        src={currCard.src}
+                        alt={currCard.alt}
+                    />
+                </div>
             </div>
             <i
                 className={`bi bi-arrow-right-circle col-sm`}
                 onClick={goForward}
             />
-        </div>
+
         </div>
     );
 }
