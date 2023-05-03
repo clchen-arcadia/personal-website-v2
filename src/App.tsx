@@ -2,7 +2,6 @@ import { Document, Page } from 'react-pdf';
 import './App.css';
 import PhotoCarousel from './components/PhotoCarousel';
 import photos from './photos';
-import InfoBox from './components/InfoBox';
 import backgroundPhoto from "./images/background-high.jpg";
 import portraitPhoto from "./images/portrait.jpeg";
 import resumePDF from "./Christopher_Chen_Resume.pdf";
