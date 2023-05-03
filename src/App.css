@@ -1,5 +1,6 @@
 html,
-body {
+body,
+section {
   margin: 0;
   padding: 0;
 }
@@ -37,9 +38,9 @@ section#intro {
 
 img#background {
   opacity: 0.5;
-  position: absolute;
-  left: -90%;
-  top: -30%;
+  /* position: absolute; */
+  /* left: -90%; */
+  /* top: -30%; */
 }
 
 section#intro>h1 {
@@ -139,33 +140,45 @@ section#projects {
   position: relative;
 }
 
+section#projects h4 {
+  font-size: 28pt;
+}
+
+section#projects p, a {
+  font-size: 22pt;
+}
+
 section#projects>h2 {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-div#warbler-row {
+div#warbler-blurb {
   position: absolute;
-  top: 20%;
-  height: 42.5vh;
-}
-
-section#warbler-blurb {
-  position: absolute;
-  top: 20%;
+  top: 25%;
   left: 15%;
+  width: 30vw;
+  /* height: 42.5vh; */
 }
 
-div#jobly-row {
+div#warbler-carousel {
   position: absolute;
-  top: 65%;
-  height: 42.5vh;
+  top: 15%;
+  left: 50%;
 }
 
-section#warbler-blurb {
+div#jobly-blurb {
   position: absolute;
-  top: 65%;
+  top: 70%;
   left: 15%;
+  width: 30vw;
+  /* height: 42.5vh; */
+}
+
+div#jobly-carousel {
+  position: absolute;
+  top: 60%;
+  left: 50%;
 }
