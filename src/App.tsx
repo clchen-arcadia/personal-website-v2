@@ -1,4 +1,3 @@
-import { Document, Page } from 'react-pdf';
 import './App.css';
 import PhotoCarousel from './components/PhotoCarousel';
 import {photos, photos2} from './photos';
