@@ -10,6 +10,23 @@ section {
   height: 100vh;
 }
 
+h1 {
+  font-size: 75pt;
+}
+
+h2 {
+  font-size: 50pt;
+}
+
+section#intro>h2 {
+  font-size: 40pt;
+}
+
+section#intro>h1,
+h2 {
+  font-weight: bold;
+}
+
 /*********************/
 
 section#intro {
@@ -19,27 +36,29 @@ section#intro {
 }
 
 img#background {
-  opacity: 0.25;
+  opacity: 0.5;
+  position: absolute;
+  left: -90%;
+  top: -30%;
 }
 
 section#intro>h1 {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 section#intro>h2#h2-1 {
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 section#intro>h2#h2-2 {
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -50,23 +69,22 @@ section#about-me {
   position: relative;
 }
 
-section#about-me > h2 {
+section#about-me>h2 {
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-section#about-me > div#about-blurb {
-  position:absolute;
+section#about-me>div#about-blurb {
+  position: absolute;
   top: 65%;
   left: 30%;
   transform: translate(-50%, -50%);
   height: 60vh;
   width: 40vw;
-
   white-space: pre-wrap;
-
+  font-size: 22pt;
 }
 
 img#portrait {
@@ -75,7 +93,6 @@ img#portrait {
   top: 55%;
   left: 70%;
   transform: translate(-50%, -50%);
-
 }
 
 /*********************/
@@ -84,16 +101,14 @@ section#skills {
   position: relative;
 }
 
-section#skills > h2 {
+section#skills>h2 {
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
 }
 
-section#skills > p {
+section#skills>p {
   position: absolute;
   display: block;
   top: 35%;
@@ -102,22 +117,6 @@ section#skills > p {
   width: 30vw;
   height: 50vh;
 }
-
-/*********************/
-
-section#projects {
-  position: relative;
-}
-
-section#projects > h2 {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-/*********************/
 
 section#skills img {
   height: 10vh;
@@ -132,4 +131,41 @@ section#skills section {
 section#grid-logos {
   position: absolute;
   top: 25%;
+}
+
+/*********************/
+
+section#projects {
+  position: relative;
+}
+
+section#projects>h2 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div#warbler-row {
+  position: absolute;
+  top: 20%;
+  height: 42.5vh;
+}
+
+section#warbler-blurb {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+div#jobly-row {
+  position: absolute;
+  top: 65%;
+  height: 42.5vh;
+}
+
+section#warbler-blurb {
+  position: absolute;
+  top: 65%;
+  left: 15%;
 }
