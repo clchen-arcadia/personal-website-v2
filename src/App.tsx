@@ -1,6 +1,6 @@
 import './App.css';
 import PhotoCarousel from './components/PhotoCarousel';
-import {photos, photos2} from './photos';
+import { photos, photos2 } from './photos';
 import backgroundPhoto from "./images/background-high.jpg";
 import portraitPhoto from "./images/portrait.jpeg";
 import resumePDF from "./Christopher_Chen_Resume.pdf";
@@ -30,22 +30,9 @@ function App() {
             {`Hi there! I’m Christopher Chen and I’m a full stack software engineer. I’ve recently graduated from Rithm School’s coding bootcamp and am working on networking, applying to jobs, and building out my portfolio and new projects! \n\n`}
 
             {`Fun facts: My favorite show is BoJack Horseman. My favorite book is A Tree Grows In Brooklyn. And I love hiking, board games, and cooking!\n\n`}
-
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item">
-                <a href="https://www.linkedin.com/in/christopherlichen/">LinkedIn</a>
-              </li>
-              <li className="list-group-item">
-                <a href="https://github.com/clchen-arcadia">GitHub</a>
-              </li>
-              <li className="list-group-item">
-                <a href="mailto:clchen.arcadia@gmail.com">Email</a>
-              </li>
-              <li className="list-group-item">
-                <a href={resumePDF}>Resume</a>
-              </li>
-            </ul>
-
+          </p>
+          <p>
+            <span><a href="https://www.linkedin.com/in/christopherlichen/">LinkedIn</a>  |  <a href="https://github.com/clchen-arcadia">GitHub</a>  |  <a href="mailto:clchen.arcadia@gmail.com">Email</a>  |  <a href={resumePDF}>Resume</a></span>
           </p>
         </div>
 
