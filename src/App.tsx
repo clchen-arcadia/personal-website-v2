@@ -1,15 +1,13 @@
 import { Document, Page } from 'react-pdf';
 import './App.css';
 import PhotoCarousel from './components/PhotoCarousel';
-import photos from './photos';
+import {photos, photos2} from './photos';
 import backgroundPhoto from "./images/background-high.jpg";
 import portraitPhoto from "./images/portrait.jpeg";
 import resumePDF from "./Christopher_Chen_Resume.pdf";
 
 
 function App() {
-  const carouselPhotos = photos;
-  const carouselTitle = "Flask Warbler";
 
   return (
     <div className="App">
@@ -132,8 +130,8 @@ function App() {
 
         <div id="warbler-carousel">
           <PhotoCarousel
-            photos={carouselPhotos}
-            title={carouselTitle}
+            photos={photos}
+            title={"Warbler"}
           />
         </div>
 
@@ -148,8 +146,8 @@ function App() {
 
         <div id="jobly-carousel">
           <PhotoCarousel
-            photos={carouselPhotos}
-            title={carouselTitle}
+            photos={photos2}
+            title={"Jobly"}
           />
         </div>
 

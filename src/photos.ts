@@ -6,6 +6,12 @@ import warbler3 from "./images/warbler3.png";
 import warbler4 from "./images/warbler4.png";
 import warbler5 from "./images/warbler5.png";
 
+import jobly1 from "./images/jobly1.png";
+import jobly2 from "./images/jobly2.png";
+import jobly3 from "./images/jobly3.png";
+import jobly4 from "./images/jobly4.png";
+import jobly5 from "./images/jobly5.png";
+
 const photos: IPhoto[] = [
   {
     src: warbler1,
@@ -29,4 +35,27 @@ const photos: IPhoto[] = [
   },
 ]
 
-export default photos;
+const photos2: IPhoto[] = [
+  {
+    src: jobly1,
+    alt: `Jobly homepage`
+  },
+  {
+    src: jobly2,
+    alt: `Jobly homepage`
+  },
+  {
+    src: jobly3,
+    alt: `Jobly homepage`
+  },
+  {
+    src: jobly4,
+    alt: `Jobly homepage`
+  },
+  {
+    src: jobly5,
+    alt: `Jobly homepage`
+  },
+]
+
+export {photos, photos2};
