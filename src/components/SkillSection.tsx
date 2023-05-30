@@ -5,7 +5,7 @@ function SkillSection() {
         <section
             id="skills"
         >
-            <h2>Technical Skills</h2>
+            <h2 className="font-link">Technical Skills</h2>
 
             <section id="grid-logos">
 

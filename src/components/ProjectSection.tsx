@@ -7,7 +7,7 @@ function ProjectSection() {
         <section
             id="projects"
         >
-            <h2>Projects</h2>
+            <h2 className="font-link">Projects</h2>
 
             <div id="warbler-blurb">
                 <h4>Warbler</h4>

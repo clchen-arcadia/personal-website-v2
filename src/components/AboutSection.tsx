@@ -8,7 +8,7 @@ function AboutSection() {
         <section
             id="about-me"
         >
-            <h2>About me</h2>
+            <h2 className="font-link">About me</h2>
 
             <div id="about-blurb">
                 <p>
