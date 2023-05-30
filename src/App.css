@@ -5,6 +5,11 @@ section {
   padding: 0;
 }
 
+
+.font-link {
+  font-family: 'Raleway';
+}
+
 section {
   /* border: 1px solid red; */
   width: 100vw;
@@ -12,11 +17,11 @@ section {
 }
 
 h1 {
-  font-size: 65pt;
+  font-size: 55pt;
 }
 
 h2 {
-  font-size: 45pt;
+  font-size: 40pt;
 }
 
 section#intro>h2 {
