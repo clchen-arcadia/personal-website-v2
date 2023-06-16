@@ -15,7 +15,7 @@ function AboutSection() {
                     {aboutMeBlurb}
                 </p>
                 <p>
-                    <span><a href="https://www.linkedin.com/in/christopherlichen/">LinkedIn</a>  |  <a href="https://github.com/clchen-arcadia">GitHub</a>  |  <a href="mailto:clchen.arcadia@gmail.com">Email</a>  |  <a href={resumePDF}>Resume</a></span>
+                    <span><a href="https://www.linkedin.com/in/christopherlichen/">LinkedIn</a>  |  <a href="https://github.com/clchen-arcadia">GitHub</a>  |  <a href="mailto:clchen.arcadia@gmail.com">Email</a>  |  <a href={resumePDF} target="_blank" rel="noreferrer noopener">Resume</a></span>
                 </p>
             </div>
 
