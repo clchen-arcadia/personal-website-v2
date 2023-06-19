@@ -1,3 +1,49 @@
-img#background {
-    width: 100vw;
+.introSection {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.introImage {
+    position: absolute;
+    opacity: 0.5;
+}
+
+@media (min-aspect-ratio: 1200/777) {
+    .introImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 1200/777) {
+    .introImage {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.introHeading1,
+.introHeading2 {
+    font-weight: bold;
+}
+
+.introHeading1 {
+    position: relative;
+    font-size: 9vw;
+}
+
+.introHeading2 {
+    position: relative;
+    font-size: 7vw;
+}
+
+@media screen and (min-width: 1000px) {
+    .introHeading1 {
+        font-size: 90px;
+    }
+
+    .introHeading2 {
+        font-size: 70px;
+    }
 }

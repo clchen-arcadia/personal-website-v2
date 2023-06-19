@@ -6,21 +6,32 @@ import backgroundPhoto from "../images/cherry-blossom-nyc-2.jpg";
  *
  * App --> IntroSection
  *
- * Props: height, width
  */
 
 function IntroSection() {
 
     return (
         <section
-            id="intro"
-            className="d-flex justify-content-center align-items-center"
+            className="introSection d-flex align-items-center justify-content-center"
         >
-            <img src={backgroundPhoto} alt="background with cherry blossoms" id="background"
+            <img
+                src={backgroundPhoto}
+                alt="background with cherry blossoms"
+                className="introImage"
             />
-            <h1 className="font-link" >Hello World, I'm Christopher Chen</h1>
-            <h2 className="font-link" id="h2-1">Software Engineer<br />New York, NY</h2>
-            {/* <h2 className="font-link" id="h2-2">New York, NY</h2> */}
+            <div>
+                <h1
+                    className="font-link introHeading1 align-middle"
+                >
+                    Hello&nbsp;World,<br />I'm&nbsp;Christopher&nbsp;Chen
+                </h1>
+
+                <h2
+                    className="font-link introHeading2"
+                >
+                    Software Engineer<br />New York, NY
+                </h2>
+            </div>
         </section>
     );
 }

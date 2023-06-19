@@ -4,11 +4,10 @@ import AboutSection from './components/AboutSection';
 import SkillSection from './components/SkillSection';
 import ProjectSection from './components/ProjectSection';
 
-
 function App() {
 
   return (
-    <div className="App">
+    <div id="App">
 
       <IntroSection />
 
