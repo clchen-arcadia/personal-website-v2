@@ -1,0 +1,53 @@
+.aboutSection {
+    position: relative;
+}
+
+.aboutHeading {
+    font-weight: bold;
+    font-size: 6vw;
+    position: absolute;
+    top: 10%;
+    transform: translate(0%, -50%);
+}
+
+@media screen and (min-width: 1000px) {
+    .aboutHeading {
+        font-size: 60px;
+    }
+}
+
+.aboutBlurb,
+.aboutPortrait {
+    display: inline-block;
+}
+
+.aboutBlurb {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 30%; */
+    /* transform: translate(-50%, -50%); */
+    width: 40vw;
+    height: auto;
+    white-space: pre-wrap;
+    font-size: 1.5vw;
+}
+
+.aboutPortrait {
+    border-radius: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 30%; */
+    /* transform: translate(50%, -50%); */
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutPortrait {
+        display: none;
+    }
+
+    .aboutBlurb {
+        /* left: 50%; */
+        width: 60vw;
+        font-size: 18px;
+    }
+}

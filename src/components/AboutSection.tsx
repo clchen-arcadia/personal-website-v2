@@ -6,20 +6,60 @@ import portraitPhoto from "../images/portrait.jpeg";
 function AboutSection() {
     return (
         <section
-            id="about-me"
+            className="aboutSection d-flex justify-content-center"
         >
-            <h2 className="font-link">About me</h2>
-
-            <div id="about-blurb">
-                <p>
-                    {aboutMeBlurb}
-                </p>
-                <p>
-                    <span><a href="https://www.linkedin.com/in/christopherlichen/">LinkedIn</a>  |  <a href="https://github.com/clchen-arcadia">GitHub</a>  |  <a href="mailto:clchen.arcadia@gmail.com">Email</a>  |  <a href={resumePDF} target="_blank" rel="noreferrer noopener">Resume</a></span>
-                </p>
+            <h2
+                className="font-link aboutHeading"
+            >
+                About me
+            </h2>
+            <div
+                className="aboutContainer d-flex align-items-center"
+            >
+                <div className="aboutBlurb mx-3">
+                    <p>
+                        {aboutMeBlurb}
+                    </p>
+                    <p>
+                        <span>
+                            <a
+                                href="https://www.linkedin.com/in/christopherlichen/"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                LinkedIn
+                            </a>
+                            {"  |  "}
+                            <a
+                                href="https://github.com/clchen-arcadia"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                GitHub
+                            </a>
+                            {"  |  "}
+                            <a
+                                href="mailto:clchen.arcadia@gmail.com"
+                            >
+                                Email
+                            </a>
+                            {"  |  "}
+                            <a
+                                href={resumePDF}
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                Resume
+                            </a>
+                        </span>
+                    </p>
+                </div>
+                <img
+                    className="aboutPortrait mx-3"
+                    src={portraitPhoto}
+                    alt="A portrait of me"
+                />
             </div>
-
-            <img src={portraitPhoto} alt="A portrait of me" id="portrait" />
         </section>
     );
 }
