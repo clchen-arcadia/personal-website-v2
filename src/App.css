@@ -14,7 +14,7 @@ section {
 .skillSection,
 .projectSection {
   position: relative;
-  border: 1px solid red;
-  width: 100vw;
+  width: 98.9vw;
   height: 100vh;
+  border: 1px solid red;
 }
