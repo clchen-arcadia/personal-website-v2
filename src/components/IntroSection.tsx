@@ -9,15 +9,14 @@ import backgroundPhoto from "../images/cherry-blossom-nyc-2.jpg";
  */
 
 function IntroSection() {
-
     return (
         <section
             className="introSection d-flex align-items-center justify-content-center"
         >
             <img
+                className="introImage"
                 src={backgroundPhoto}
                 alt="background with cherry blossoms"
-                className="introImage"
             />
             <div>
                 <h1
