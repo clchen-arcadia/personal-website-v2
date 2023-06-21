@@ -3,7 +3,7 @@ import DeviconCard from "./DeviconCard";
 
 function DeviconGrid({ gridWidth, gridHeight, numRows, numColumns, deviconTuples }) {
     const cellWidth = gridWidth / (numColumns + 2);
-    const cellHeight = gridHeight / (numRows + 1);
+    // const cellHeight = gridHeight / (numRows + 1);
 
     const rowsToRender = [];
     for (let i = 0; i < numRows; i++) {

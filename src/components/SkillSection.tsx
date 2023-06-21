@@ -1,6 +1,5 @@
 import "./SkillSection.css";
 import { deviconTuples } from "../devicons";
-import DeviconCard from "./DeviconCard";
 import DeviconGrid from "./DeviconGrid";
 
 function SkillSection() {
