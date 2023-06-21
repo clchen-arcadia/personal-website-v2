@@ -17,12 +17,12 @@ function NavBar() {
             `Resume`,
         ],
         [
-            "https://www.linkedin.com/in/christopherlichen/",
+            "https://github.com/clchen-arcadia",
             `devicon-github-original`,
             `GitHub`,
         ],
         [
-            "https://github.com/clchen-arcadia",
+            "https://www.linkedin.com/in/christopherlichen/",
             `devicon-linkedin-plain`,
             `LinkedIn`,
         ],
