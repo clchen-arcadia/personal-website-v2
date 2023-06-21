@@ -28,7 +28,7 @@ function ProjectCard({ title, blurb, links, photos }) {
                 }
             </div>
 
-            <PhotoCarousel photos={photos} title={title}/>
+            {/* <PhotoCarousel photos={photos} title={title}/> */}
 
         </div>
     );
