@@ -18,15 +18,17 @@ function DeviconGrid({ gridWidth, gridHeight, numRows, numColumns, deviconTuples
         >
             {
                 rowsToRender.map(
-                    r => {
+                    (r, idx) => {
                         return (
                             <div className="skillRow"
+                            key={idx}
                             >
                                 {
                                     r.map(
-                                        t => {
+                                        (t, idx) => {
                                             return (
                                                 <DeviconCard
+                                                    key={idx}
                                                     width={`${cellWidth}vw`}
                                                     height={`auto`}
                                                     source={t[0]}
@@ -48,31 +50,3 @@ function DeviconGrid({ gridWidth, gridHeight, numRows, numColumns, deviconTuples
 }
 
 export default DeviconGrid;
-
-
-/**
- *
-        {
-            for(let iRow = 0; iRow <rows; iRow++) {
-        for (let iCol = 0; iCol < columns; iCol++) {
-            deviconTuples
-                .slice(columns * iRow, columns * iRow + columns)
-                .map(
-                    t => {
-                        return (
-                            <DeviconCard
-                                width={cellWidth}
-                                height={cellHeight}
-                                source={t[0]}
-                                alt={t[1]}
-                                title={t[2]}
-                            />
-                        );
-                    }
-                );
-        }
-    }
-}
-
-width, height, rows, columns, deviconTuples
- */
