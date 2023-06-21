@@ -5,11 +5,12 @@ import PhotoCarousel from "./PhotoCarousel";
 function ProjectSection() {
     return (
         <section
+            className="projectSection"
             id="projects"
         >
-            <h2 className="font-link">Projects</h2>
+            <h2 className="font-link projectHeading">Projects</h2>
 
-            <div id="warbler-blurb">
+            <div className="projectBlurb">
                 <h4>Warbler</h4>
                 <p>
                     {`A Twitter clone built in Flask Python, SQLAlchemy, and PostgreSQL`}
@@ -17,7 +18,7 @@ function ProjectSection() {
                 <a href="https://github.com/clchen-arcadia/flask-warbler">GitHub Repo</a>
             </div>
 
-            <div id="warbler-carousel">
+            <div className="projectCarousel">
                 <PhotoCarousel
                     photos={photos}
                     title={"Warbler"}

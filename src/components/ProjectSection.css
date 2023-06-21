@@ -1,0 +1,57 @@
+.projectSection {
+    position: relative;
+}
+
+.projectHeading {
+    font-weight: bold;
+    font-size: 6vw;
+    position: absolute;
+    top: 10%;
+    transform: translate(0%, -50%);
+}
+
+@media screen and (min-width: 1000px) {
+    .projectHeading {
+        font-size: 60px;
+    }
+}
+
+section#projects p,
+a {
+    font-size: 18pt;
+}
+
+section#projects>h2 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projectBlurb {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 30vw;
+    /* height: 42.5vh; */
+}
+
+.projectCarousel {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+div#jobly-blurb {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 30vw;
+    /* height: 42.5vh; */
+}
+
+div#jobly-carousel {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
