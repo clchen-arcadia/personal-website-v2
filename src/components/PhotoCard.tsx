@@ -1,7 +1,7 @@
 import { IPhoto } from "../types";
 import "./PhotoCard.css";
 
-function PhotoCarousel({src, alt}) {
+function PhotoCard({src, alt}) {
     return (
     <div className="Card shadow border d-flex justify-content-center align-items-center">
         <img className="Card-image" src={src} alt={alt} />
@@ -9,4 +9,4 @@ function PhotoCarousel({src, alt}) {
     )
 }
 
-export default PhotoCarousel;
+export default PhotoCard;
