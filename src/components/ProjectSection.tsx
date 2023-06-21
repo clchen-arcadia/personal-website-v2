@@ -5,12 +5,19 @@ import PhotoCarousel from "./PhotoCarousel";
 function ProjectSection() {
     return (
         <section
-            className="projectSection"
+            className="projectSection d-flex justify-content-center"
             id="projects"
         >
-            <h2 className="font-link projectHeading">Projects</h2>
+            <h2
+                className="font-link projectHeading"
+            >
+                Projects
+            </h2>
 
-            <div className="projectBlurb">
+            <div
+                className="projectBlurb"
+                id="warbler-blurb"
+            >
                 <h4>Warbler</h4>
                 <p>
                     {`A Twitter clone built in Flask Python, SQLAlchemy, and PostgreSQL`}
@@ -18,7 +25,10 @@ function ProjectSection() {
                 <a href="https://github.com/clchen-arcadia/flask-warbler">GitHub Repo</a>
             </div>
 
-            <div className="projectCarousel">
+            <div
+                className="projectCarousel"
+                id="warbler-carousel"
+            >
                 <PhotoCarousel
                     photos={photos}
                     title={"Warbler"}
@@ -26,7 +36,10 @@ function ProjectSection() {
             </div>
 
 
-            <div id="jobly-blurb">
+            <div
+                className="projectCarousel"
+                id="jobly-blurb"
+            >
                 <h4>Jobly</h4>
                 <p>
                     {`A job board site built in React.js, Express.js, and PostgreSQL`}
@@ -34,7 +47,10 @@ function ProjectSection() {
                 <p><a href="https://github.com/clchen-arcadia/react-jobly">GitHub Repo Frontend</a> | <a href="https://github.com/clchen-arcadia/express-jobly">GitHub Repo Backend</a></p>
             </div>
 
-            <div id="jobly-carousel">
+            <div
+                className="projectCarousel"
+                id="jobly-carousel"
+            >
                 <PhotoCarousel
                     photos={photos2}
                     title={"Jobly"}

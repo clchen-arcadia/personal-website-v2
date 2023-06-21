@@ -16,19 +16,18 @@
     }
 }
 
-section#projects p,
-a {
+.projectBlurb, .projectCarousel {
     font-size: 18pt;
 }
 
-section#projects>h2 {
+/* section#projects>h2 {
     position: absolute;
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
-.projectBlurb {
+#warbler-blurb {
     position: absolute;
     top: 25%;
     left: 10%;
@@ -36,13 +35,13 @@ section#projects>h2 {
     /* height: 42.5vh; */
 }
 
-.projectCarousel {
+#warbler-carousel {
     position: absolute;
     top: 15%;
     left: 45%;
 }
 
-div#jobly-blurb {
+#jobly-blurb {
     position: absolute;
     top: 70%;
     left: 10%;
@@ -50,7 +49,7 @@ div#jobly-blurb {
     /* height: 42.5vh; */
 }
 
-div#jobly-carousel {
+#jobly-carousel {
     position: absolute;
     top: 60%;
     left: 45%;
