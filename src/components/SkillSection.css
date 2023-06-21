@@ -1,0 +1,57 @@
+.skillSection {
+  position: relative;
+}
+
+.skillHeading {
+  font-weight: bold;
+  font-size: 6vw;
+  position: absolute;
+  top: 10%;
+  transform: translate(0%, -50%);
+}
+
+@media screen and (min-width: 1000px) {
+  .skillHeading {
+    font-size: 60px;
+  }
+}
+
+.skillGrid {
+  position: absolute;
+  top: 20%;
+  width: 90vw;
+  height: 75vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.skillCard {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+
+.skillRow {
+  display: block;
+}
+
+/* .skillSection>p {
+  position: absolute;
+  display: block;
+  top: 35%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+  height: 50vh;
+}
+
+.skillSection img {
+  height: 50px;
+  width: auto;
+  display: inline;
+}
+
+.skillSection#grid-logos {
+  position: absolute;
+  top: 25%;
+} */
