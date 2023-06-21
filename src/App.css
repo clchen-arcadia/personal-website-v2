@@ -1,20 +1,23 @@
 html,
-body,
-section {
+body {
   margin: 0;
   padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .font-link {
   font-family: 'Raleway';
 }
 
-.introSection,
 .aboutSection,
 .skillSection,
 .projectSection {
   position: relative;
-  width: 98.9vw;
+  width: 100vw;
   height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
