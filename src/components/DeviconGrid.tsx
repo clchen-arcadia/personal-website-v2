@@ -15,9 +15,6 @@ function DeviconGrid({ gridWidth, gridHeight, numRows, numColumns, deviconTuples
     return (
         <div
             className="skillGrid"
-            style={{
-                border: "1px solid red"
-            }}
         >
             {
                 rowsToRender.map(
