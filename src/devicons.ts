@@ -32,7 +32,7 @@ export const deviconTuples = [
   [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
     "dev-icon-bootstrap",
-    "CSS Bootstrap",
+    "Bootstrap",
   ],
   [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -77,7 +77,7 @@ export const deviconTuples = [
   [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
     "dev-icon-npm",
-    "Node Package Manager",
+    "npm",
   ],
   [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg",
