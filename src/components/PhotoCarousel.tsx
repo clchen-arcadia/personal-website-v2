@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IPhotoCarousel } from "../types";
+// import { IPhotoCarousel } from "../types";
 import "./PhotoCarousel.css";
 import PhotoCard from "./PhotoCard";
 

@@ -1,4 +1,4 @@
-import { IPhoto } from "../types";
+// import { IPhoto } from "../types";
 import "./PhotoCard.css";
 
 function PhotoCard({src, alt}) {

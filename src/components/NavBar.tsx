@@ -12,8 +12,7 @@ function NavBar() {
     ];
     const LINKS_EXT = [
         [
-            // resumePDF,
-            "https://www.linkedin.com/in/christopherlichen/",
+            resumePDF,
             `bi bi-file-pdf`,
             `Resume`,
         ],
