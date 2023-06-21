@@ -7,6 +7,7 @@ function AboutSection() {
     return (
         <section
             className="aboutSection d-flex justify-content-center"
+            id="about-me"
         >
             <h2
                 className="font-link aboutHeading"
