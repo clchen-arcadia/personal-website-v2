@@ -1,0 +1,13 @@
+.buttonExt {
+    margin: 10px;
+}
+
+.buttonExtA, .buttonExtA:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.buttonExt i {
+    font-size: 25px;
+}

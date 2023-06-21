@@ -1,25 +1,26 @@
 import './NavButtonExt.css';
 
-function NavButtonExt({linkExt, iconSrc, iconAlt}) {
-    console.log(`navbuttonext rendered with
-    link=${linkExt}
-    iconSrc=${iconSrc}
-    iconAlt=${iconAlt}`)
+function NavButtonExt({ linkExt, iconClass, title }) {
     return (
-        <a
-            href={linkExt}
-            target="_blank"
-            rel="noreferrer noopener"
+        <div
+            className='buttonExt d-flex align-items-center'
         >
-            <img
-            src={iconSrc}
-            alt={iconAlt}
-            style={{
-                width: '15px',
-                height: '15px'
-            }}
-            />
-        </a>
+
+            <a
+                href={linkExt}
+                target="_blank"
+                rel="noreferrer noopener"
+                className='buttonExtA'
+            >
+                <i
+                    className={`${iconClass} m-2`}
+                />
+                <span>
+                    {title}
+                </span>
+            </a>
+
+        </div>
     );
 }
 
