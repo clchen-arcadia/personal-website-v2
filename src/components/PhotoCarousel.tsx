@@ -4,7 +4,7 @@ import "./PhotoCarousel.css";
 import PhotoCard from "./PhotoCard";
 
 
-function PhotoCarousel({ photos, title }: IPhotoCarousel) {
+function PhotoCarousel({ photos, title }) {
     const [currCardIdx, setCurrCardIdx] = useState(0);
 
     const currCard = photos[currCardIdx];
