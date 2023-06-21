@@ -12,6 +12,7 @@ function IntroSection() {
     return (
         <section
             className="introSection d-flex align-items-center justify-content-center"
+            id="intro"
         >
             <img
                 className="introImage"
