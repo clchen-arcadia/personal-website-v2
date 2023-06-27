@@ -13,17 +13,17 @@ function NavBar() {
     const LINKS_EXT = [
         [
             resumePDF,
-            `bi bi-file-pdf`,
+            `bi-file-pdf`,
             `Resume`,
         ],
         [
             "https://github.com/clchen-arcadia",
-            `devicon-github-original`,
+            `bi bi-github`,
             `GitHub`,
         ],
         [
             "https://www.linkedin.com/in/christopherlichen/",
-            `devicon-linkedin-plain`,
+            `bi bi-linkedin`,
             `LinkedIn`,
         ],
     ];
